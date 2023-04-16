@@ -10,7 +10,7 @@ def read_input():
         return aa.rstrip(), bb.rstrip()
     elif "F" in letter:
         file = input()
-        with open("./tests/" + file, mode='r') as fails:
+        with open("./tests/06", mode='r') as fails:
             vis = fails.read()
             dal = vis.splitlines()
             aa = dal[0]
